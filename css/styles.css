@@ -396,10 +396,19 @@ footer address {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
+/* HW4  */
 .hero-section {
     padding-top: 195px;
     padding-bottom: 205px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/background-img.jpg);
+    background-color: var(--hero-background-color);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .qualities-section {
@@ -410,4 +419,45 @@ footer address {
 .we-do-section {
     padding-top: 0;
     padding-bottom: 94px;
+}
+
+/* .qualities li::before {
+    display: block;
+    width: 270px;
+    height: 120px;
+    content: "";
+    background-color: var(--team-background-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.details-attention::before {
+    background-image: url("../images/antenna1.svg");
+
+}
+
+.punctuality::before {
+    background-image: url("../images/clock1.svg");
+}
+
+.planning::before {
+    background-image: url("../images/diagram1.svg");
+}
+
+.up-to-date::before {
+    background-image: url("../images/astronaut1.svg");
+} */
+
+.quality-card {
+    width: 270px;
+    height: 120px;
+    background-color: var(--team-background-color);
+    margin-bottom: 30px;
+}
+
+.details-attention-pict {
+    
 }
