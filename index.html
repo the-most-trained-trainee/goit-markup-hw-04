@@ -22,8 +22,23 @@
                 </ul>
             </nav>
             <ul class="contact-list">
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li>
+                    <a href="mailto:info@devstudio.com" class="contact1-content">
+                        <svg class="contact1-svg">
+                            <use href="./images/symbol-defs.svg#contact1"></use>
+                        </svg>                           
+                        <div class="contact1-text">info@devstudio.com</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="tel:+380961111111" class="contact2-content">
+                        <svg class="contact2-svg">
+                            <use href="./images/symbol-defs.svg#contact2"></use>
+                        </svg>
+                        <div class="contact2-text">+38 096 111 11 11</div>
+                    </a>
+                </li>
             </ul>
         </div>
     </header>
@@ -43,7 +58,7 @@
                 <ul class="invisible-list qualities">
                     <li class="details-attention">
                         <div class="details-attention-pict quality-card">
-                            <svg>
+                            <svg class="quality-svg">
                                 <use href="./images/symbol-defs.svg#quality1"></use>
                             </svg>
                         </div>
@@ -51,17 +66,29 @@
                         <p class="quality-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
                     <li class="punctuality">
-                        <div class="punctuality-pic quality-card"></div>
+                        <div class="punctuality-pic quality-card">
+                            <svg class="quality-svg">
+                                <use href="./images/symbol-defs.svg#quality2"></use>
+                            </svg>
+                        </div>
                         <h3 class="quality-heading">Пунктуальность</h3>
                         <p class="quality-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
                     <li class="planning">
-                        <div class="planning-pict quality-card"></div>
+                        <div class="planning-pict quality-card">
+                            <svg class="quality-svg">
+                                <use href="./images/symbol-defs.svg#quality3"></use>
+                            </svg>
+                        </div>
                         <h3 class="quality-heading">Планирование</h3>
                         <p class="quality-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
                     <li class="up-to-date">
-                        <div class="uptodate quality-card"></div>
+                        <div class="uptodate quality-card">
+                            <svg class="quality-svg">
+                                <use href="./images/symbol-defs.svg#quality4"></use>
+                            </svg>
+                        </div>
                         <h3 class="quality-heading">Современные технологии</h3>
                         <p class="quality-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
@@ -87,28 +114,148 @@
                         <img src="images/member1.jpg" alt="Игорь Демьяненко" width="270">
                         <div class="member-card-description">
                             <h3 class="member-name">Игорь Демьяненко</h3>
-                            <p class="member-position">Product Designer</p>    
+                            <p class="member-position">Product Designer</p>
+                            <ul class="network-list">
+                                <li>
+                                    <div class="network-hover">
+                                        <svg class="network-icon">
+                                            <use href="./images/symbol-defs.svg#network1"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="network-hover">
+                                        <svg class="network-icon">
+                                            <use href="./images/symbol-defs.svg#network2"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="network-hover">
+                                        <svg class="network-icon">
+                                            <use href="./images/symbol-defs.svg#network3"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="network-hover">
+                                        <svg class="network-icon">
+                                            <use href="./images/symbol-defs.svg#network4"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                            </ul>                          
                         </div>
                     </li>
                     <li class="member-card">
                         <img src="images/member2.jpg" alt="Ольга Репина" width="270">
                         <div class="member-card-description">
                             <h3 class="member-name">Ольга Репина</h3>
-                            <p class="member-position">Frontend Developer</p>    
+                            <p class="member-position">Frontend Developer</p>  
+                            <ul class="network-list">
+                                <li>
+                                    <div class="network-hover">
+                                        <svg class="network-icon">
+                                            <use href="./images/symbol-defs.svg#network1"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="network-hover">
+                                        <svg class="network-icon">
+                                            <use href="./images/symbol-defs.svg#network2"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="network-hover">
+                                        <svg class="network-icon">
+                                            <use href="./images/symbol-defs.svg#network3"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="network-hover">
+                                        <svg class="network-icon">
+                                            <use href="./images/symbol-defs.svg#network4"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                            </ul>                            
                         </div>
                     </li>
                     <li class="member-card">
                         <img src="images/member3.jpg" alt="Николай Тарасов" width="270">
                         <div class="member-card-description">
                             <h3 class="member-name">Николай Тарасов</h3>
-                            <p class="member-position">Marketing</p>    
+                            <p class="member-position">Marketing</p>
+                            <ul class="network-list">
+                                <li>
+                                    <div class="network-hover">
+                                        <svg class="network-icon">
+                                            <use href="./images/symbol-defs.svg#network1"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="network-hover">
+                                        <svg class="network-icon">
+                                            <use href="./images/symbol-defs.svg#network2"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="network-hover">
+                                        <svg class="network-icon">
+                                            <use href="./images/symbol-defs.svg#network3"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="network-hover">
+                                        <svg class="network-icon">
+                                            <use href="./images/symbol-defs.svg#network4"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                            </ul>                            
                         </div>
                     </li>
                     <li class="member-card">
                         <img src="images/member4.jpg" alt="Михаил Ермаков" width="270">
                         <div class="member-card-description">
                             <h3 class="member-name">Михаил Ермаков</h3>
-                            <p class="member-position">UI Designer</p>    
+                            <p class="member-position">UI Designer</p>
+                            <ul class="network-list">
+                                <li>
+                                    <div class="network-hover">
+                                        <svg class="network-icon">
+                                            <use href="./images/symbol-defs.svg#network1"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="network-hover">
+                                        <svg class="network-icon">
+                                            <use href="./images/symbol-defs.svg#network2"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="network-hover">
+                                        <svg class="network-icon">
+                                            <use href="./images/symbol-defs.svg#network3"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="network-hover">
+                                        <svg class="network-icon">
+                                            <use href="./images/symbol-defs.svg#network4"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                            </ul>                              
                         </div> 
                     </li>
                 </ul>    
