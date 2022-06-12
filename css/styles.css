@@ -232,6 +232,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--button-hero-color);
     cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /*        Project List */
@@ -368,6 +369,11 @@ footer {
 
 .project-card:nth-child(3n) {
     margin-right: 0;
+}
+
+.project-card:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 
 .img-inclusion {
@@ -513,8 +519,118 @@ footer address {
 
 .network-hover:hover {
     background-color: var(--text-hover-color);
+    cursor: pointer;
 }
 
 .network-hover:hover .network-icon {
     fill: #ffffff;
+}
+
+.client-card {
+    display: block;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.client-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.client-list li {
+    margin: 0px;
+}
+
+.client-list li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.client-pict {
+    width: 106px;
+    height: 60px;
+    fill: #AFB1B8;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.client-card:hover .client-pict {
+    fill: #2196F3;
+}
+
+.client-card:hover {
+    border-color: #2196F3;
+    cursor: pointer;
+}
+
+
+/* = footer  */
+
+.footer-network-container {
+    display: inline-block;
+    margin-top: 72px;
+    margin-left: 70px;
+}
+
+
+.footer-network-heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-network-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    height: 44px;
+    justify-content: center;
+}
+
+.footer-network-list li {
+    margin: 0px;
+    padding: 0;
+    height: 20px;
+}
+
+.footer-network-list li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-network-icon {
+    width: 20px;
+    height: 20px;
+    height: 20px;
+    fill: #ffffff;
+}
+
+.footer-network-hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid;
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.footer-network-hover:hover {
+    background-color: var(--text-hover-color);
+    cursor: pointer;
+}
+
+.footer-network-hover:hover .network-icon {
+    fill: #ffffff;
+}
+
+.footer-container {
+    display: flex;
 }
