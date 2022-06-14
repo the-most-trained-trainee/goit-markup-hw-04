@@ -22,8 +22,23 @@
                 </ul>
             </nav>
             <ul class="contact-list">
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li>
+                    <a href="mailto:info@devstudio.com" class="contact1-content">
+                        <svg class="contact1-svg">
+                            <use href="./images/symbol-defs.svg#contact1"></use>
+                        </svg>                           
+                        <div class="contact1-text">info@devstudio.com</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="tel:+380961111111" class="contact2-content">
+                        <svg class="contact2-svg">
+                            <use href="./images/symbol-defs.svg#contact2"></use>
+                        </svg>
+                        <div class="contact2-text">+38 096 111 11 11</div>
+                    </a>
+                </li>
             </ul>
         </div>
     </header>
@@ -112,21 +127,56 @@
     </main>
     <!-- Footer Part -->
     <footer>
-        <div class="container">
-            <address>
-                <a href="/index.html" class="web-studio-icon"><span class="web-studio-icon-part">Web</span><span class="web-studio-icon-part-footer">Studio</span></a>
-                <ul class="invisible-list contact-details">
+        <div class="container footer-container">
+            <div class="footer-address">
+                <address>
+                    <a href="/index.html" class="web-studio-icon"><span class="web-studio-icon-part">Web</span><span class="web-studio-icon-part-footer">Studio</span></a>
+                    <ul class="invisible-list contact-details">
+                        <li>
+                            <a href="https://cutt.ly/UJb5n39"><span class="address-kyiv">г. Киев, пр-т Леси Украинки, 26</span></a>
+                        </li>
+                        <li>
+                            <a href="mailto:info@devstudio.com">info@example.com</a>
+                        </li>
+                        <li>
+                            <a href="tel:+380961111111">+38 099 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>    
+            </div>
+            <div class="footer-network-container">        
+                <h3 class="footer-network-heading">присоединяйтесь</h3>
+                <ul class="footer-network-list">
                     <li>
-                        <a href="https://cutt.ly/UJb5n39"><span class="address-kyiv">г. Киев, пр-т Леси Украинки, 26</span></a>
+                        <div class="footer-network-hover">
+                            <svg class="footer-network-icon">
+                                <use href="./images/symbol-defs.svg#network1"></use>
+                            </svg>
+                        </div>
                     </li>
                     <li>
-                        <a href="mailto:info@devstudio.com">info@example.com</a>
+                        <div class="footer-network-hover">
+                            <svg class="footer-network-icon">
+                                <use href="./images/symbol-defs.svg#network2"></use>
+                            </svg>
+                        </div>
                     </li>
                     <li>
-                        <a href="tel:+380961111111">+38 099 111 11 11</a>
+                        <div class="footer-network-hover">
+                            <svg class="footer-network-icon">
+                                <use href="./images/symbol-defs.svg#network3"></use>
+                            </svg>
+                        </div>
                     </li>
-                </ul>
-            </address>    
+                    <li>
+                        <div class="footer-network-hover">
+                            <svg class="footer-network-icon">
+                                <use href="./images/symbol-defs.svg#network4"></use>
+                            </svg>
+                        </div>
+                    </li>
+                </ul>                          
+            </div>
         </div>
     </footer>
 </body>

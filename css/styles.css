@@ -296,13 +296,13 @@ header {
 .activities {
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 .team-members {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 .member-card {
@@ -372,7 +372,8 @@ footer {
 }
 
 .project-card:hover {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     cursor: pointer;
 }
 
@@ -391,7 +392,7 @@ footer {
     /* padding-bottom: 30px; */
 }
 
-footer address {
+footer {
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -569,7 +570,7 @@ footer address {
 
 .footer-network-container {
     display: inline-block;
-    margin-top: 72px;
+    margin-top: 12px;
     margin-left: 70px;
 }
 
@@ -633,4 +634,20 @@ footer address {
 
 .footer-container {
     display: flex;
+}
+
+.details-attention:hover .details-attention-pict {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.punctuality:hover .punctuality-pict {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.planning:hover .planning-pict {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.up-to-date:hover .uptodate {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
